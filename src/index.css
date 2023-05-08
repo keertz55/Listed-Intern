@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,334 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.login .left-section {
+  background-color: #000000;
+}
+
+.login .left-section .text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.login .right-section {
+  background-color: #F5F5F5;
+}
+
+.right-section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.right-section p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.right-section .sign-button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #858585;
+}
+
+.box-border {
+  border-style: unset;
+}
+
+.sign-in-box {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.sign-in-box label span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.sign-in-box label input {
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+
+.sign-in-box .forgot-password {
+  color: #346BD5;
+}
+
+.sign-in-box button {
+  background: #000000;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.right-section .account {
+  color: #858585;
+}
+
+.right-section .register {
+  color: #346BD4;
+}
+
+
+/* dashboard css */
+.dashboard {
+  background-color: #DDDDDD;
+}
+
+.dashboard .sidmenu {
+  width: 100%;
+  background: #000000;
+  border-radius: 30px;
+  height: calc(100vh - 48px);
+  color: #ffffff;
+  /* height: 100%; */
+}
+
+.sidmenu h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.sidmenu img {
+  object-fit: none;
+  margin-left: 5px;
+  margin-right: 15px;
+  width: auto;
+}
+
+.sidmenu p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.sidmenu .active {
+  font-weight: 700;
+}
+
+.sidmenu-bottom {
+  bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.sidmenu-bottom p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.dashboard .main-content {
+  /* background-color: #716969; */
+}
+
+.main-content .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.header-menu input {
+  border-radius: 10px;
+}
+
+.header-menu .alert {
+  object-fit: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header-menu .profile-img {
+  object-fit: none;
+  border-radius: 25px;
+}
+
+.revenue {
+  background: #DDEFE0;
+  border-radius: 20px;
+}
+
+.transcation {
+  background: #F4ECDD;
+  border-radius: 20px;
+}
+
+.like {
+  background: #EFDADA;
+  border-radius: 20px;
+}
+
+.user {
+  background: #DEE0EF;
+  border-radius: 20px;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.bottom-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.bottom-card .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.bottom-card .desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.bottom-card .arrowimg {
+  object-fit: none;
+  margin-left: 5px;
+}
+.bottom-card .rotate {
+  transform: rotate(270deg);
+}
+
+.bottom-card .name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+}
+
+.bottom-card .value {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.value1 {
+  background-color: #98D89E;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.value2 {
+  background-color: #F6DC7D;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.value3 {
+  background-color: #EE8484;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.meeting .title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+.meeting .time{
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #999999;
+}
+.meeting .address{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
+.meetline{
+  border-left-width: 5px;
+border-left-style: solid;
+border-left-color: #9BDD7C;
+}
+.meetline2{
+  border-left-width: 5px;
+border-left-style: solid;
+border-left-color: #6972C3;
+}
+.linechart{
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.linechart canvas{
+  width: 100% !important;
+  height: 350px !important;
+}
+.linechart .title{
+  text-align: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+}
+.linechart .desc{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
+.linechart .arrowimg{
+  object-fit: none;
+}
+.ledge2{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border-left-color: #9BDD7C;
+}
+.ledge1{
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+border-left-color: #E9A0A0;
 }
